@@ -1,0 +1,7 @@
+.ud {
+    border-bottom: 1px solid black;
+}
+
+.completed {
+    text-decoration: line-through;
+}
