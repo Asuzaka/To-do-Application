@@ -2,7 +2,7 @@ export const getTime = () => {
     let Data = new Date()
     // Date
     let year = Data.getFullYear()
-    let month = (Data.getMonth() + 1) < 10 ? '0' + Data.getMonth() : Data.getMonth()
+    let month = (Data.getMonth() + 1) < 10 ? '0' + (Data.getMonth() + 1) : (Data.getMonth() + 1)
     let day = Data.getDate() < 10 ? '0' + Data.getDate() : Data.getDate()
     // time
     let hour = Data.getHours() < 10 ? '0' + Data.getHours() : Data.getHours()
